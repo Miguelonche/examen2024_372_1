@@ -1,0 +1,41 @@
+    1    for file in index.html style.css app.js main.py;     do         touch ./"${file}";     done
+    2  cmd //c tree //F ./
+    3   curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
+    4   read -p "Introduce la cantidad de archivos a crear:" numfiles
+    5      for x in $( seq 1 $numfiles );     do         echo "Archivo ${x}" > "file${x}.txt";     done
+    6  cmd //c tree //F ./
+    7  mv style.css css/
+    8  mv *.txt docs/text
+    9  mv main.py docs/python
+   10  mv app.js js/
+   11  cmd //c tree //F ./
+   12  mv meme.jpg img/
+   13  cmd //c tree //F ./
+   14  ./create.sh
+   15  mv examen372.md readme.md
+   16  cd ..
+   17  cd..
+   18  cd ..
+   19  $ mv examen372.md README.md
+   20  mv examen372.md README.md
+   21  cd examen372
+   22  mv examen372.md README.md
+   23  cd ..
+   24  instrucciones
+   25  cd instrucciones
+   26  mv examen372.md README.md
+   27  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   28  cd ..
+   29  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   30  cd .. 
+   31  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   32  cd desktop
+   33  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   34  ls
+   35  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   36* 
+   37  mv "~/instrucciones/README.md" "~/examen372/"
+   38  ~ /desktop/instrucciones/README.md ~/desktop/examen372/
+   39  mv "C:/Users/Miguel/Desktop/instrucciones/README.md" "C:/Users/Miguel/Desktop/examen372/"
+   40  cd examen372
+   41  history > history.txt
